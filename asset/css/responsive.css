@@ -1,0 +1,92 @@
+/* PC */
+@media (min-width:64em) {
+    
+}
+/* Tablet + mobile */
+@media (max-width:63.9375em) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-info a {
+        color: #101aef;
+        opacity: 0.8;
+    }
+    .contact-info a:hover {
+        opacity: 1;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 20px;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+    #footer .copy-right a {
+        display: inline-block;
+        padding: 8px 0;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    
+}
+/* Mobile */
+@media (max-width:46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+    }
+    #header {
+    overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    .colum {
+        display: contents;
+    }
+    #content .menber-img {
+        width: 60%  ;
+    }
+    .place-body {
+        margin-bottom: 16px;
+    }
+    .row {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mob-mt-8 {
+        margin-top: 8px;
+    }
+}
