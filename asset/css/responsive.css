@@ -26,6 +26,7 @@
     }
     #footer .social-list {
         font-size: 48px;
+        display: flex;
     }
     #footer .social-list a {
         margin: 0 8px;
