@@ -27,6 +27,7 @@
     #footer .social-list {
         font-size: 48px;
         display: flex;
+        justify-content: space-between;
     }
     #footer .social-list a {
         margin: 0 8px;
@@ -89,5 +90,8 @@
     }
     .mob-mt-8 {
         margin-top: 8px;
+    }
+    #footer .social-list {
+        font-size: unset;
     }
 }
